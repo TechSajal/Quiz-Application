@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="quiz">
+
+            <!-- score -->
+            <div class="introduction">
+                <h1 class="heading">notNotion</h1>
+                <h3 class="subheading">Daily Quiz to Test Your  Knowledge!</h3>
+            </div>
+            <!-- result -->
+            <div class="result hide">
+                <p></p>
+                <div onclick="document.location.reload(true)" class="tryagain">
+                    <button>Try Again?</button>
+                </div>
+            </div>
+
+            <!-- form -->
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1.What is the capital of India</p>
+                    <div class="option">
+                        <input type="radio" id="optiononeq1" name="q1" value="A" checked>
+                        <label for="optiononeq1">Bombay</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optiontwoq1" name="q1" value="B">
+                        <label for="optiontwoq1">Utter Pradesh</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optionthreeq1" name="q1" value="C">
+                        <label for="optionthreeq1">Delhi</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optionfourq1" name="q1" value="D">
+                        <label for="optionfourq1">Kolkata</label>
+                    </div>
+                </div>
+                <!-- q2 -->
+                <div class="question ">
+                    <p>2.What is the national bird of India?</p>
+                    <div class="option">
+                        <input type="radio" id="optiononeq2" name="q2" value="A" checked>
+                        <label for="optiononeq2">Peagon</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optiontwoq2" name="q2" value="B">
+                        <label for="optiontwoq2">Peacock</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optionthreeq2" name="q2" value="C">
+                        <label for="optionthreeq2">Eagle</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optionfourq2" name="q2" value="D">
+                        <label for="optionfourq2">Vulture</label>
+                    </div>
+                </div>
+
+                <!-- q3 -->
+                <div class="question">
+                    <p>3.What is the national flower of India?</p>
+                    <div class="option">
+                        <input type="radio" id="optiononeq3" name="q3" value="A" checked>
+                        <label for="optiononeq3">Lotus</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optiontwoq3" name="q3" value="B">
+                        <label for="optiontwoq3">Lily</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optionthreeq3" name="q3" value="C">
+                        <label for="optionthreeq3">Sunflower</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optionfourq3" name="q3" value="D">
+                        <label for="optionfourq3">Rose</label>
+                    </div>
+                </div>
+                <!-- q4 -->
+                <div class="question">
+                    <p>4.What is the national sport of India?</p>
+                    <div class="option">
+                        <input type="radio" id="optiononeq4" name="q4" value="A" checked>
+                        <label for="optiononeq4">Hockey</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optiontwoq4" name="q4" value="B">
+                        <label for="optiontwoq4">Cricket</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optionthreeq4" name="q4" value="C">
+                        <label for="optionthreeq4">Kabadi</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optionfourq4" name="q4" value="D">
+                        <label for="optionfourq4">Don't Have any</label>
+                    </div>
+                </div>
+                <!-- q5 -->
+                <div class="question">
+                    <p>5.What is the national fruit of India?</p>
+                    <div class="option">
+                        <input type="radio" id="optiononeq5" name="q5" value="A" checked>
+                        <label for="optiononeq5">Apple</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optiontwoq5" name="q5" value="B">
+                        <label for="optiontwoq5">Mango</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optionthreeq5" name="q5" value="C">
+                        <label for="optionthreeq5">Watermelon</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="optionfourq5" name="q5" value="D">
+                        <label for="optionfouq5">Grapes</label>
+                    </div>
+                </div>
+
+                <div class="submit">
+                          <input  id="button-submit" type="submit" value="submit"> 
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
